@@ -1,0 +1,62 @@
+# Environment-specific files
+.env
+*.env
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database files (exclude only the data file, keep schema files if any)
+movimientos.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+temp_*
+tmp/
+*.tmp
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Images and media files that are temporary
+temp_*.jpg
+temp_*.jpeg
+temp_*.png
+temp_*.gif
+temp_*.bmp
+temp_*.tiff
+temp_*.webp
+
+# Large files that are not source code
